@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Prueba Tecnica</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="2dea826b4137a2116775ff5eb0db3268da039dddfac5bcb6607d91027f1a35ba.html">Crear Cuenta En Pruebaqa App</a></span>
+                > <span class="truncate-60"><a
+                    href="ba34956c01c5a507b8f44f461ca0971f04f389d49856e4a5da57717e138c9c58.html">Observar mensajes de Obligatoriedad </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-11-2019 23:27</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Crear Cuenta En Pruebaqa App</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como usuario de PruebaQaAPP
+Quiero registrar mi informacin
+Para poder observar disfrutar de los servicios de la APP
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Observar mensajes de Obligatoriedad
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que quiero observar la obligatoriedad de campos en PruebaQaApp<br>Cuando ingrese los datos: &lt;Nombre&gt;, &lt;Apellido&gt;, &lt;Email&gt;, &lt;Pass&gt;, &lt;Fecha Nacimiento&gt;, &lt;Genero&gt;<br>Entonces observo el &lt;Mensaje&gt; de obligatoriedad</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Example #1: {Nombre=, Apellido=Perez, Email=pruebas@gmail.com, Pass=123456, Fecha Nacimiento=1997-08-12, Genero=Mujer, Mensaje=El nombre es obligatorio}" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Dado que quiero observar la obligatoriedad de campos en PruebaQaApp" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Ingreso pagina" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Dado que quiero observar la obligatoriedad de campos en PruebaQaApp (completed)" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Cuando ingrese los datos: , Perez, pruebas@gmail.com, 123456, 1997-08-12, Mujer" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Ingreso informacion formulario: , Perez, pruebas@gmail.com, 123456, 1997-08-12, Mujer" width="1366"/>
+                <img src="7d9810a07a86e7ad5b2dc96a185d1c592d9c4255d10c3ed21c6cc2d551d82a6b.png" title=" Ingreso informacion formulario: , Perez, pruebas@gmail.com, 123456, 1997-08-12, Mujer (completed)" width="1366"/>
+                <img src="7d9810a07a86e7ad5b2dc96a185d1c592d9c4255d10c3ed21c6cc2d551d82a6b.png" title=" Cuando ingrese los datos: , Perez, pruebas@gmail.com, 123456, 1997-08-12, Mujer (completed)" width="1366"/>
+                <img src="7d9810a07a86e7ad5b2dc96a185d1c592d9c4255d10c3ed21c6cc2d551d82a6b.png" title=" Entonces observo el El nombre es obligatorio de obligatoriedad" width="1366"/>
+                <img src="7d9810a07a86e7ad5b2dc96a185d1c592d9c4255d10c3ed21c6cc2d551d82a6b.png" title=" Visualizacion mensaje: El nombre es obligatorio" width="1366"/>
+                <img src="7d9810a07a86e7ad5b2dc96a185d1c592d9c4255d10c3ed21c6cc2d551d82a6b.png" title=" Visualizacion mensaje: El nombre es obligatorio (completed)" width="1366"/>
+                <img src="7d9810a07a86e7ad5b2dc96a185d1c592d9c4255d10c3ed21c6cc2d551d82a6b.png" title=" Entonces observo el El nombre es obligatorio de obligatoriedad (completed)" width="1366"/>
+                <img src="7d9810a07a86e7ad5b2dc96a185d1c592d9c4255d10c3ed21c6cc2d551d82a6b.png" title=" Example #1: {Nombre=, Apellido=Perez, Email=pruebas@gmail.com, Pass=123456, Fecha Nacimiento=1997-08-12, Genero=Mujer, Mensaje=El nombre es obligatorio} (completed)" width="1366"/>
+                <img src="108271cdd786627335919b8a1c2890547db1fc4aa5fa62a39565778ae76d41f7.png" title=" Example #2: {Nombre=Pepito, Apellido=, Email=pruebas@gmail.com, Pass=123456, Fecha Nacimiento=1997-08-12, Genero=Mujer, Mensaje=El apellido es obligatorio}" width="1366"/>
+                <img src="108271cdd786627335919b8a1c2890547db1fc4aa5fa62a39565778ae76d41f7.png" title=" Dado que quiero observar la obligatoriedad de campos en PruebaQaApp" width="1366"/>
+                <img src="108271cdd786627335919b8a1c2890547db1fc4aa5fa62a39565778ae76d41f7.png" title=" Ingreso pagina" width="1366"/>
+                <img src="108271cdd786627335919b8a1c2890547db1fc4aa5fa62a39565778ae76d41f7.png" title=" Dado que quiero observar la obligatoriedad de campos en PruebaQaApp (completed)" width="1366"/>
+                <img src="108271cdd786627335919b8a1c2890547db1fc4aa5fa62a39565778ae76d41f7.png" title=" Cuando ingrese los datos: Pepito, , pruebas@gmail.com, 123456, 1997-08-12, Mujer" width="1366"/>
+                <img src="108271cdd786627335919b8a1c2890547db1fc4aa5fa62a39565778ae76d41f7.png" title=" Ingreso informacion formulario: Pepito, , pruebas@gmail.com, 123456, 1997-08-12, Mujer" width="1366"/>
+                <img src="d6d68a73274f2dbedbbd9e8e7f7f153f052a9312f26fd9a1e6a522e308535416.png" title=" Ingreso informacion formulario: Pepito, , pruebas@gmail.com, 123456, 1997-08-12, Mujer (completed)" width="1366"/>
+                <img src="d6d68a73274f2dbedbbd9e8e7f7f153f052a9312f26fd9a1e6a522e308535416.png" title=" Cuando ingrese los datos: Pepito, , pruebas@gmail.com, 123456, 1997-08-12, Mujer (completed)" width="1366"/>
+                <img src="d6d68a73274f2dbedbbd9e8e7f7f153f052a9312f26fd9a1e6a522e308535416.png" title=" Entonces observo el El apellido es obligatorio de obligatoriedad" width="1366"/>
+                <img src="d6d68a73274f2dbedbbd9e8e7f7f153f052a9312f26fd9a1e6a522e308535416.png" title=" Visualizacion mensaje: El apellido es obligatorio" width="1366"/>
+                <img src="d6d68a73274f2dbedbbd9e8e7f7f153f052a9312f26fd9a1e6a522e308535416.png" title=" Visualizacion mensaje: El apellido es obligatorio (completed)" width="1366"/>
+                <img src="d6d68a73274f2dbedbbd9e8e7f7f153f052a9312f26fd9a1e6a522e308535416.png" title=" Entonces observo el El apellido es obligatorio de obligatoriedad (completed)" width="1366"/>
+                <img src="d6d68a73274f2dbedbbd9e8e7f7f153f052a9312f26fd9a1e6a522e308535416.png" title=" Example #2: {Nombre=Pepito, Apellido=, Email=pruebas@gmail.com, Pass=123456, Fecha Nacimiento=1997-08-12, Genero=Mujer, Mensaje=El apellido es obligatorio} (completed)" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Example #3: {Nombre=Pepito, Apellido=Perez, Email=, Pass=123456, Fecha Nacimiento=1997-08-12, Genero=Hombre, Mensaje=El correo electr&oacute;nico es obligatorio}" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Dado que quiero observar la obligatoriedad de campos en PruebaQaApp" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Ingreso pagina" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Dado que quiero observar la obligatoriedad de campos en PruebaQaApp (completed)" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Cuando ingrese los datos: Pepito, Perez, , 123456, 1997-08-12, Hombre" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Ingreso informacion formulario: Pepito, Perez, , 123456, 1997-08-12, Hombre" width="1366"/>
+                <img src="ff129efaaffb094c37efc5abe90783824424d7ca22e4f7d0c15dfd7e0258e904.png" title=" Ingreso informacion formulario: Pepito, Perez, , 123456, 1997-08-12, Hombre (completed)" width="1366"/>
+                <img src="ff129efaaffb094c37efc5abe90783824424d7ca22e4f7d0c15dfd7e0258e904.png" title=" Cuando ingrese los datos: Pepito, Perez, , 123456, 1997-08-12, Hombre (completed)" width="1366"/>
+                <img src="ff129efaaffb094c37efc5abe90783824424d7ca22e4f7d0c15dfd7e0258e904.png" title=" Entonces observo el El correo electr&oacute;nico es obligatorio de obligatoriedad" width="1366"/>
+                <img src="ff129efaaffb094c37efc5abe90783824424d7ca22e4f7d0c15dfd7e0258e904.png" title=" Visualizacion mensaje: El correo electr&oacute;nico es obligatorio" width="1366"/>
+                <img src="ff129efaaffb094c37efc5abe90783824424d7ca22e4f7d0c15dfd7e0258e904.png" title=" Visualizacion mensaje: El correo electr&oacute;nico es obligatorio (completed)" width="1366"/>
+                <img src="ff129efaaffb094c37efc5abe90783824424d7ca22e4f7d0c15dfd7e0258e904.png" title=" Entonces observo el El correo electr&oacute;nico es obligatorio de obligatoriedad (completed)" width="1366"/>
+                <img src="ff129efaaffb094c37efc5abe90783824424d7ca22e4f7d0c15dfd7e0258e904.png" title=" Example #3: {Nombre=Pepito, Apellido=Perez, Email=, Pass=123456, Fecha Nacimiento=1997-08-12, Genero=Hombre, Mensaje=El correo electr&oacute;nico es obligatorio} (completed)" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Example #4: {Nombre=Pepito, Apellido=Perez, Email=pruebas@gmail.com, Pass=, Fecha Nacimiento=1997-08-12, Genero=Mujer, Mensaje=La constrase&ntilde;a es obligatoria}" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Dado que quiero observar la obligatoriedad de campos en PruebaQaApp" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Ingreso pagina" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Dado que quiero observar la obligatoriedad de campos en PruebaQaApp (completed)" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Cuando ingrese los datos: Pepito, Perez, pruebas@gmail.com, , 1997-08-12, Mujer" width="1366"/>
+                <img src="b34c2a3c43d78e12bb11a7f8f0ecb2a484f51344052aad12cdc04972b0c6c3aa.png" title=" Ingreso informacion formulario: Pepito, Perez, pruebas@gmail.com, , 1997-08-12, Mujer" width="1366"/>
+                <img src="a19ac718285e2dcfe6e7be1b606c9e42897bf6c0eab6de85780d6fbeb99054bc.png" title=" Ingreso informacion formulario: Pepito, Perez, pruebas@gmail.com, , 1997-08-12, Mujer (completed)" width="1366"/>
+                <img src="a19ac718285e2dcfe6e7be1b606c9e42897bf6c0eab6de85780d6fbeb99054bc.png" title=" Cuando ingrese los datos: Pepito, Perez, pruebas@gmail.com, , 1997-08-12, Mujer (completed)" width="1366"/>
+                <img src="a19ac718285e2dcfe6e7be1b606c9e42897bf6c0eab6de85780d6fbeb99054bc.png" title=" Entonces observo el La constrase&ntilde;a es obligatoria de obligatoriedad" width="1366"/>
+                <img src="a19ac718285e2dcfe6e7be1b606c9e42897bf6c0eab6de85780d6fbeb99054bc.png" title=" Visualizacion mensaje: La constrase&ntilde;a es obligatoria" width="1366"/>
+                <img src="a19ac718285e2dcfe6e7be1b606c9e42897bf6c0eab6de85780d6fbeb99054bc.png" title=" Visualizacion mensaje: La constrase&ntilde;a es obligatoria (completed)" width="1366"/>
+                <img src="a19ac718285e2dcfe6e7be1b606c9e42897bf6c0eab6de85780d6fbeb99054bc.png" title=" Entonces observo el La constrase&ntilde;a es obligatoria de obligatoriedad (completed)" width="1366"/>
+                <img src="a19ac718285e2dcfe6e7be1b606c9e42897bf6c0eab6de85780d6fbeb99054bc.png" title=" Example #4: {Nombre=Pepito, Apellido=Perez, Email=pruebas@gmail.com, Pass=, Fecha Nacimiento=1997-08-12, Genero=Mujer, Mensaje=La constrase&ntilde;a es obligatoria} (completed)" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Example #5: {Nombre=Pepito, Apellido=Perez, Email=pruebas@gmail.com, Pass=123456, Fecha Nacimiento=, Genero=Mujer, Mensaje=La fecha de nacimiento es obligatoria}" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Dado que quiero observar la obligatoriedad de campos en PruebaQaApp" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Ingreso pagina" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Dado que quiero observar la obligatoriedad de campos en PruebaQaApp (completed)" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Cuando ingrese los datos: Pepito, Perez, pruebas@gmail.com, 123456, , Mujer" width="1366"/>
+                <img src="24d55a5c3ec137cff2d78caba112c183ae763556406cbf2fb357b24b983e510b.png" title=" Ingreso informacion formulario: Pepito, Perez, pruebas@gmail.com, 123456, , Mujer" width="1366"/>
+                <img src="986dd14e64de2089be0beb0ff53fffebebb56152949005a91a71a905a8781a5d.png" title=" Ingreso informacion formulario: Pepito, Perez, pruebas@gmail.com, 123456, , Mujer (completed)" width="1366"/>
+                <img src="986dd14e64de2089be0beb0ff53fffebebb56152949005a91a71a905a8781a5d.png" title=" Cuando ingrese los datos: Pepito, Perez, pruebas@gmail.com, 123456, , Mujer (completed)" width="1366"/>
+                <img src="986dd14e64de2089be0beb0ff53fffebebb56152949005a91a71a905a8781a5d.png" title=" Entonces observo el La fecha de nacimiento es obligatoria de obligatoriedad" width="1366"/>
+                <img src="986dd14e64de2089be0beb0ff53fffebebb56152949005a91a71a905a8781a5d.png" title=" Visualizacion mensaje: La fecha de nacimiento es obligatoria" width="1366"/>
+                <img src="986dd14e64de2089be0beb0ff53fffebebb56152949005a91a71a905a8781a5d.png" title=" Visualizacion mensaje: La fecha de nacimiento es obligatoria (completed)" width="1366"/>
+                <img src="986dd14e64de2089be0beb0ff53fffebebb56152949005a91a71a905a8781a5d.png" title=" Entonces observo el La fecha de nacimiento es obligatoria de obligatoriedad (completed)" width="1366"/>
+                <img src="986dd14e64de2089be0beb0ff53fffebebb56152949005a91a71a905a8781a5d.png" title=" Example #5: {Nombre=Pepito, Apellido=Perez, Email=pruebas@gmail.com, Pass=123456, Fecha Nacimiento=, Genero=Mujer, Mensaje=La fecha de nacimiento es obligatoria} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.30</span>
+</div>
+</body>
+</html>

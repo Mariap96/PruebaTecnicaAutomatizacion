@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Crear cuenta en PruebaQa App" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-11-20T04:27:29" hostname="3RO-PQVIS7PH00P" time="54.408">
+  <properties/>
+  <testcase name="Observar mensajes de Obligatoriedad" classname="Crear cuenta en PruebaQa App" time="9.77"/>
+  <testcase name="Observar mensajes de Obligatoriedad" classname="Crear cuenta en PruebaQa App" time="7.874"/>
+  <testcase name="Observar mensajes de Obligatoriedad" classname="Crear cuenta en PruebaQa App" time="7.129"/>
+  <testcase name="Observar mensajes de Obligatoriedad" classname="Crear cuenta en PruebaQa App" time="7.471"/>
+  <testcase name="Observar mensajes de Obligatoriedad" classname="Crear cuenta en PruebaQa App" time="7.031"/>
+  <testcase name="Crear Cuenta Exitosa" classname="Crear cuenta en PruebaQa App" time="6.005"/>
+  <testcase name="Crear Cuenta Exitosa" classname="Crear cuenta en PruebaQa App" time="6.558"/>
+  <system-out><![CDATA[
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+
+
+
+?[32m.?[0m
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Observar mensajes de Obligatoriedad
+-------------------------------------------------------------------(crear-cuenta-en-pruebaqa-app;observar-mensajes-de-obligatoriedad)
+nov 19, 2019 11:27:29 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 16542
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+nov 19, 2019 11:27:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+nov 19, 2019 11:27:38 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+nov 19, 2019 11:27:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+nov 19, 2019 11:27:46 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+nov 19, 2019 11:27:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+nov 19, 2019 11:27:54 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+nov 19, 2019 11:27:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+nov 19, 2019 11:28:02 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+nov 19, 2019 11:28:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Crear Cuenta Exitosa
+-------------------------------------------------------------------(crear-cuenta-en-pruebaqa-app;crear-cuenta-exitosa)
+nov 19, 2019 11:28:10 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+nov 19, 2019 11:28:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+nov 19, 2019 11:28:16 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+nov 19, 2019 11:28:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
